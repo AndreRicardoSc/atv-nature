@@ -1,0 +1,74 @@
+/*--------------------GERAL------------------------*/
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/*------------------TOPO-----------------------*/
+header{
+    background: #3B8686;
+    padding: 2vw 10vw 2vw 10vw;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 0 0 4vw;
+}
+header nav ul li a.atual{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 2px 20px 2px 20px;
+    border-radius: 20px;
+}
+/*------------------CONTEUDO-BANNER-----------------------*/
+section.banner{
+    padding: 30vw 10vw 5vw 10vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../images/back-banner.png) no-repeat center center;
+    background-size: 100% auto;
+}
+section.banner h2{
+    color: white;
+    font-size: 3rem;
+    background: rgba(59, 134, 134, 0.5);
+    width: 45%;
+    padding: 10px;
+}
+/*------------------CONTEUDO-SERVICO-----------------------*/
+section.servico{
+    padding: 8vw 10vw 8vw 10vw;
+}
+section.servico ul{
+    display: flex;
+    justify-content: space-between;
+}
+section.servico ul li{
+    text-align: center;
+    margin: 0 4vw 0 4vw;
+}
+section.servico ul li span{
+    color: #3B8686;
+    font-size: 3rem;
+}
+section.servico ul li h3{
+    font-size: 1.5rem;
+    margin: 2vw 0 0 0;
+}
+section.servico ul li p{
+    margin: 2vw 0 1vw 0;
+    color: #747474;
+}
+section.servico ul li p a{
+    background: #3B8686;
+    padding: 10px 30px 10px 30px;
+}
+/*------------------CONTEUDO-STATUS-----------------------*/
+
+
