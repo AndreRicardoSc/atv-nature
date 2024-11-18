@@ -70,5 +70,72 @@ section.servico ul li p a{
     padding: 10px 30px 10px 30px;
 }
 /*------------------CONTEUDO-STATUS-----------------------*/
-
-
+section.status{
+    background: linear-gradient(rgba(121, 189, 154, 0.2), rgba(121, 189, 154, 0.2)), url(../images/back-numeros.png) no-repeat center center;
+    background-size: 100% auto;
+    padding: 4vw 0 4vw 0;
+}
+section.status ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.status ul li{
+    color: white;
+    text-align: center;
+}
+section.status ul li span{
+    font-size: 3rem;
+    margin: 0 0 1vw 0;
+}
+section.status ul li p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+/*------------------POSSIBILIDADES-----------------------*/
+section.possibilidades{
+    padding: 8vw 10vw 8vw 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+section.possibilidades div h2{
+    font-size: 2rem;
+    color: #0B486B;
+}
+section.possibilidades div p{
+    margin: 2vw 8vw 2vw 0;
+}
+section.possibilidades div.botoes{
+    display: flex;
+}
+section.possibilidades div.botoes a{
+    background: #0B486B;
+    padding: 1vw 2vw 1vw 2vw;
+    margin: 0 2vw 0 0;
+}
+/*------------------FOOTER-----------------------*/
+footer{
+    padding: 2vw 10vw 2vw 10vw;
+    background: #3B8686;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div ul.icons-footer{
+    display: flex;
+}
+footer div ul.icons-footer li{
+    font-size: 2rem;
+    margin: 0 1vw 1vw 0;
+}
+footer div p{
+    margin: 1vw 0 1vw 0;
+}
+footer div h3{
+    font-weight: bold;
+}
+footer div ul li{
+    margin: 2vw 0 2vw 0;
+    text-align: right;
+}
